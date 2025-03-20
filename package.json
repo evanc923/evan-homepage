@@ -1,0 +1,29 @@
+{
+  "name": "evan-homepage",
+  "version": "1.0.0",
+  "description": "Evan's website",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Evan Chan",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "framer-motion": "^12.5.0",
+    "next": "^15.2.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.22.0",
+    "eslint-config-next": "^15.2.3",
+    "prettier": "^3.5.3"
+  }
+}
