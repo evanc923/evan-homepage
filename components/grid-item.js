@@ -53,8 +53,8 @@ export const WorkGridItem = ({
 
 export const ProductGridItem = ({
   children,
-  category = 'works',
-  id,
+  // category = 'works',
+  // id,
   title,
   link,
   thumbnail
