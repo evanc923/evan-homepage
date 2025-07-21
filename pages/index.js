@@ -11,6 +11,7 @@ const Page = () => {
       <Container>
         <Box
           borderRadius="lg"
+          mt={6}
           mb={6}
           p={3}
           textAlign="center"
@@ -90,6 +91,15 @@ const Page = () => {
             >
               PROMISE Technology(Taiwan)
             </Link>
+          </BioSection>
+        </Section>
+
+        <Section delay={0.2}>
+          <Heading as="h3" variant="section-title">
+            Contacts
+          </Heading>
+          <BioSection>
+          Email: evanc923@gmail.com
           </BioSection>
         </Section>
       </Container>

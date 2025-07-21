@@ -13,20 +13,20 @@ const Works = () => {
     return (
       <Layout title="Works">
         <Container>
-          <Heading as="h3" fontSize={20} mb={4}>
+          <Heading as="h3" fontSize={20} mt={6} mb={4}>
             Software
           </Heading>
 
           <SimpleGrid columns={[1, 1, 2]} gap={6}>
             <Section>
-              <WorkGridItem id="pup" title="Promise Utility Pro" thumbnail={thumbpup}>
+              <ProductGridItem id="pup" title="Promise Utility Pro" thumbnail={thumbpup} link={'https://www.youtube.com/watch?v=G5auKZBCAwI'}>
                 Utility application for storage product.
-              </WorkGridItem>
+              </ProductGridItem>
             </Section>
             <Section>
-              <WorkGridItem id="hb" title="HybridBoost" thumbnail={thumbHybridBoost}>
+              <ProductGridItem id="hb" title="HybridBoost" thumbnail={thumbHybridBoost} link={'https://www.promise.com/tw/Promotion/the-boost-technologies'}>
                 HybridBoost combines the benefits of both on-premises and cloud storage solutions.
-              </WorkGridItem>
+              </ProductGridItem>
             </Section>
           </SimpleGrid>
 
